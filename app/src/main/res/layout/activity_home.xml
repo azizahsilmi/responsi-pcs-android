@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="401dp"
+        android:layout_height="67dp"
+        android:text="RegisterAccount"
+        app:icon="?attr/actionModeCloseDrawable"
+        app:iconPadding="8dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032"
+        app:rippleColor="#FFFFFF"
+        app:strokeColor="#000000" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="350dp"
+        android:layout_height="169dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Your Recomendation"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
